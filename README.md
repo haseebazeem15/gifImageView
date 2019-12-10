@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/haseebazeem15/gifImageView.svg)](https://jitpack.io/#haseebazeem15/gifImageView)
 # GifImageView
 GifImageView is light weight and efficient library to display Gif images in android application.
 
