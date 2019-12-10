@@ -5,9 +5,12 @@ GifImageView is light weight and efficient library to display Gif images in andr
 ## Demo
 ![alt text](https://github.com/haseebazeem15/gifImageView/blob/master/ezgif-3-3a03e164f61a.gif)
 
+## Minimum API LEVEL
+GifImageView is compatible with API LEVEL 21 or above.
+
 ## Installation
 
-Use [jitpack](https://jitpack.io) in your build.gradle file to install GifImageView.
+1) Use [jitpack](https://jitpack.io) in your build.gradle file to install GifImageView.
 
 ```bash
 allprojects {
@@ -67,7 +70,8 @@ String path = "path/to/gif_file";
 gifImageView.setGifImageFile(path);
 ```
 
-
+## Drawable Requirements
+Make sure to import gif file in all drawable directories like drawable-v24, drawable etc.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
